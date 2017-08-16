@@ -5,7 +5,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
-    <title> Igor Simões | Personal/Academic Website</title>
+    <title>
+      {% if page.title %}
+        {{ page.title }}
+      {% else %}
+        {{ site.title }}
+      {% endif %}
+    </title>
     <meta property="og:title" content="{{ site.title }}">
     <meta property="og:locale" content="en_US">
     <meta name="description" content="{{ site.description }}">
