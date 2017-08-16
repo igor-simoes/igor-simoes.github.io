@@ -5,3 +5,4 @@ title: Igor Simões
 google_analytics: [UA-104676221-1]
 plugins:
   - jemoji
+  - jekyll-octicons
