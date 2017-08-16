@@ -1,6 +1,7 @@
 theme: jekyll-theme-midnight
 
 title: Igor Simões
+
+google_analytics: [UA-104676221-1]
 plugins:
   - jemoji
-google_analytics: [UA-104676221-1]
