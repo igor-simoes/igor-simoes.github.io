@@ -1,7 +1,7 @@
-## Bio
+:radio_button:## Bio
 
-## Education
+:radio_button: ## Education
 
-## Experiences
+:radio_button: ## Experiences
 
-## Projects
+:radio_button: ## Projects
