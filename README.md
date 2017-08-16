@@ -1,4 +1,4 @@
-:radio_button:## Bio
+:radio_button: ## Bio
 
 :radio_button: ## Education
 
