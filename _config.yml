@@ -1,6 +1,9 @@
 theme: jekyll-theme-midnight
 
-title: Igor Simões
-description: Personal/Academic Website
+title: Personal Website
 show_downloads: false
 google_analytics: [UA-104676221-1]
+
+username: Igor Simões
+github_username: igor-simoes
+gmail: isol2@cin.ufpe.br
