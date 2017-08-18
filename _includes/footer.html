@@ -1,22 +1,22 @@
-<footer class="site-footer">
-    <nav>
-        <li class="fork">
-            <a href="mailto: {{ site.gmail }}">
+<div class="wrapper">
+    <section>
+        <hr>
+        <div class="div-footer">
+            <a class="footer-text" href="mailto: {{ site.gmail }}">
                 <i class="socicon-mail"></i>
                 {{ site.gmail }}
             </a>
-        </li>
-        <li class="fork">
-            <a href="https://www.linkedin.com/in/igorsimoesol/">
-                <i class="socicon-linkedin"></i>
-                {{ site.username }}
-            </a>
-        </li>
-        <li class="fork">
-            <a href="https://github.com/igor-simoes">
+
+            <a class="footer-text" href="https://github.com/igor-simoes">
                 <i class="socicon-github"></i>
                 {{ site.github_username }}
             </a>
-        </li>
-    </nav>
-</footer>
+
+            <a class="footer-text" href="https://www.linkedin.com/in/{{ site.linkedin }}">
+                <i class="socicon-linkedin"></i>
+                {{ site.linkedin }}
+            </a>
+        </div>
+        <br>
+    </section>
+</div>

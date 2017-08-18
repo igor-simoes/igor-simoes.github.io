@@ -1,8 +1,14 @@
-@import "{{ site.theme }}"
+---
+---
 
-$spacing-unit: 30px !default;
+@import "{{ site.theme }}";
 
-.site-footer {
-    border-top: 1px solid gray;
-    padding: $spacing-unit 0;
+.footer-text {
+    font-size: larger;
+    width:33%;
+    float:left;
+}
+
+.div-footer {
+    text-align:center;
 }
