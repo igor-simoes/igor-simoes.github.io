@@ -1,0 +1,33 @@
+- id: 1
+  title: Resident Developer 
+  company: at Motorola Mobility Project/CIn-UFPE
+  start_year: 2016
+  end_year: 2016
+  description: "
+  I was worked in Automation Team, implementing and apply fixes on automated test cases using Python 
+  with a company internal framework. <br>
+  In addition, I had the goal of analyzing, identifying and reporting bugs on Motorola devices.
+  Working with functional/black-box tests, Sanity and Regression.
+  "
+
+- id: 2
+  title: Python/Django Developer
+  company: in LAMP (Laboratório de Análise, Modelagem e Programação) at UFAL
+  start_year: 2014
+  end_year: 2016
+  description: "
+  I worked during my undergratuate in an Academic Project implementing a plugin for monitoring students 
+  actions in <a href='https://www.geany.org'>Geany IDE</a> and display the metrics in a Django server. <br>
+  This project was my final work to obtain my BSc.
+  "
+
+- id: 3
+  title: Java/JavaFX Developer
+  company: in LAMP (Laboratório de Análise, Modelagem e Programação) at UFAL
+  start_year: 2012
+  end_year: 2014
+  description: "
+  Developing applications for Academic Researches using Java and JavaFX. 
+  One of them was a desktop application to support the learning of physics on a digital board
+  using JBox2D to create a environment with gravity, velocity and others metrics.
+  "  
