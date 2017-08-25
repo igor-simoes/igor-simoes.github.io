@@ -1,12 +1,11 @@
 theme: jekyll-theme-midnight
 
 title: Personal Website
-show_downloads: false
+show_downloads: true
 google_analytics: [UA-104676221-1]
-
 username: Igor Simões
 github_username: igor-simoes
 gmail: isol2@cin.ufpe.br
 linkedin: igorsimoesol
 personal: iigor.simoes
-last_updated: Sun Aug 20 2017
+last_updated: Fri Aug 25 2017

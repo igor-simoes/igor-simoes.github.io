@@ -1,6 +1,6 @@
 <ul>
     {% for exp in site.data.experiences %}
-        <li>{{ exp.title }} {{ exp.company }} <a id="exp_{{ exp.id }}">show description</a></li>
+        <li>{{ exp.title }} {{ exp.company }} <a id="exp_{{ exp.id }}">show</a></li>
         <p id="desc_{{ exp.id }}">{{ exp.description }}</p>
     {% endfor %}
 </ul>
