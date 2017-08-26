@@ -1,0 +1,11 @@
+<ul>
+    {% for project in site.data.projects %}
+        <li><a href="{{ project.github_url }}">{{ project.title }}</a> ({{ project.type }})
+            <a id="show_p_{{ project.id }}">show</a>
+        </li>
+        
+        <div id="desc_p_{{ project.id }}" class="div-description">
+            <h4>&emsp;&emsp;{{ project.description }}</h4>
+        </div>
+    {% endfor %}
+</ul>

@@ -1,35 +1,9 @@
 <ul>
     {% for exp in site.data.experiences %}
-        <li>{{ exp.title }} {{ exp.company }} <a id="exp_{{ exp.id }}">show</a></li>
-        <p id="desc_{{ exp.id }}">{{ exp.description }}</p>
+        <li>{{ exp.title }} {{ exp.company }} <a id="show_e_{{ exp.id }}">show</a></li>
+        <div id="desc_e_{{ exp.id }}" class="div-description">
+            <h4>&emsp;&emsp;{{ exp.description }}</h4>
+        </div>
     {% endfor %}
 </ul>
 
-<script>
-    $(document).ready(function() {
-        $('p[id^="desc_"]').hide();
-    });
-
-    let setVisibility = (element) => {
-        if (element.is(':visible')) {
-            element.hide(500);
-        }
-        else {
-            element.show(500);
-        }
-    }
-
-    $('a[id^="exp_"]').click(function(){
-        let clickedID = $(this).attr('id');
-
-        if (clickedID.indexOf('1') > -1) {
-            setVisibility($('#desc_1'));
-        }
-        if (clickedID.indexOf('2') > -1) {
-            setVisibility($('#desc_2'));
-        }
-        if (clickedID.indexOf('3') > -1) {
-            setVisibility($('#desc_3'));
-        }
-    });
-</script>

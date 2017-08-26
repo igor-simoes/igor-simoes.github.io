@@ -1,11 +1,8 @@
-title:
-type:
-description:
-
-title:
-type:
-description:
-
-title:
-type:
-description:
+- id: 1
+  title: Cerebro-yts-movies
+  type: open-source
+  description: "
+  A plugin for <a href='https://cerebroapp.com'>CerebroApp</a> to search and download
+  movies via torrent on <a href='http://yts.ag'>YTS website</a>.
+  "
+  github_url: https://github.com/igor-simoes/cerebro-yts-movies

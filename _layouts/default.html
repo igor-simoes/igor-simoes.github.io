@@ -10,12 +10,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/analytics.js' | relative_url }}"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="{{ '/assets/css/ie.css' | relative_url }}">
-    <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   </head>
 
@@ -38,4 +32,31 @@
       {% include footer.html %}
       <!-- end footer -->
   </body>
+
+
+  <script>
+    $(document).ready(function() {
+        $('div[id^="desc_"]').hide();
+    });
+    
+    let setVisibility = (anchor, element) => {
+        if (element.is(':visible')) {
+            element.hide(500);
+            anchor.text('show');
+        }
+        else {
+            element.show(500);
+            anchor.text('hide');
+        }
+    }
+    
+    $('a[id^="show_"]').click(function(){
+        let anchor = $(this);
+        let clickedID = anchor.attr('id');
+        let aux = clickedID.indexOf('_e_') > -1 ? 'e_' : 'p_';
+        let index = clickedID[clickedID.length - 1];
+        let _id = '#desc_' + aux + index;
+        setVisibility(anchor, $(_id));
+    });
+  </script>
 </html>

@@ -5,7 +5,7 @@
   end_year: 2016
   description: "
   I was worked in Automation Team, implementing and apply fixes on automated test cases using Python 
-  with a company internal framework. <br>
+  with a company internal framework.
   In addition, I had the goal of analyzing, identifying and reporting bugs on Motorola devices.
   Working with functional/black-box tests, Sanity and Regression.
   "
@@ -17,7 +17,7 @@
   end_year: 2016
   description: "
   I worked during my undergratuate in an Academic Project implementing a plugin for monitoring students 
-  actions in <a href='https://www.geany.org'>Geany IDE</a> and display the metrics in a Django server. <br>
+  actions in <a href='https://www.geany.org'>Geany IDE</a> and display the metrics in a Django server.
   This project was my final work to obtain my BSc.
   "
 
