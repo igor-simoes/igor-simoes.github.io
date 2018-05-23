@@ -1,0 +1,51 @@
+- id: 1
+  app: Microsoft - Chakra Engine
+  issues:
+    - title: Inconsistent treatment with long negative number
+      date: Apr 12 2018
+      status: FIXED
+      url: https://github.com/Microsoft/ChakraCore/issues/4978
+    
+    - title: Core dumps on String.repeat function
+      date: Apr 12 2018
+      status: Won't Fix/By Design
+      url: https://github.com/Microsoft/ChakraCore/issues/4979
+
+    - title: Chakra should throw TypeError when try to set property of an object which has only a getter
+      date: Apr 23 2018
+      status: CONFIRMED
+      url: https://github.com/Microsoft/ChakraCore/issues/5033
+
+    - title: Unary plus with invalid hexadecimal value
+      date: Apr 25 2018
+      status: FIXED
+      url: https://github.com/Microsoft/ChakraCore/issues/5038
+
+    - title: Chakra should throw an exception when evaluate an invalid "for" statement
+      date: May 10 2018
+      status: CONFIRMED
+      url: https://github.com/Microsoft/ChakraCore/issues/5128
+
+    - title: Chakra throws SyntaxError if RegExp pattern has a quantifier prefix with a long number
+      date: May 17 2018
+      status: CONFIRMED
+      url: https://github.com/Microsoft/ChakraCore/issues/5182
+    
+    - title: Chakra throws a SyntaxError on for...in statement
+      date: May 21 2018
+      status: FIXED
+      url: https://github.com/Microsoft/ChakraCore/issues/5203
+
+
+- id: 2
+  app: Apple - JavascriptCore Engine
+  issues:
+    - title: Int8Array.prototype sets value to invalid position
+      date: Apr 18 2018
+      status: NEW
+      url: https://bugs.webkit.org/show_bug.cgi?id=184749
+
+    - title: Object.defineProperty is not called when it sets an object attribute that exists
+      date: Apr 14 2018
+      status: NEW
+      url: https://bugs.webkit.org/show_bug.cgi?id=184629

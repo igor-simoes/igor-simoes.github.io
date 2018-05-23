@@ -1,0 +1,12 @@
+<ul>
+    {% for bugs in site.data.bugs %}
+    <div>
+        <li>{{ bugs.app }} ({{ bugs.issues | size }}) <a id="show_b_{{ bugs.id }}">show</a></li>
+        <ul id="desc_b_{{ bugs.id }}" class="div-description">
+            {% for issue in bugs.issues %}
+                <li><a href="{{ issue.url }}">{{ issue.title }} [{{ issue.status }}]</a> {{ issue.date }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endfor %}
+</ul>

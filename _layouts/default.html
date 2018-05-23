@@ -36,7 +36,7 @@
 
   <script>
     $(document).ready(function() {
-        $('div[id^="desc_"]').hide();
+        $('(div|ul)[id^="desc_"]').hide();
     });
     
     let setVisibility = (anchor, element) => {
@@ -53,7 +53,14 @@
     $('a[id^="show_"]').click(function(){
         let anchor = $(this);
         let clickedID = anchor.attr('id');
-        let aux = clickedID.indexOf('_e_') > -1 ? 'e_' : 'p_';
+        let aux;
+        let patterns = ['b_', 'e_', 'p_'];
+        for (let id of patterns){
+            if (clickedID.indexOf(id) > -1){
+                aux = id
+                break;
+            } 
+        }
         let index = clickedID[clickedID.length - 1];
         let _id = '#desc_' + aux + index;
         setVisibility(anchor, $(_id));
