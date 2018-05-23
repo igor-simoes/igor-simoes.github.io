@@ -40,16 +40,11 @@
     });
     
     let setVisibility = (anchor, element) => {
-        if (element.is(':visible')) {
-            element.hide(500);
-            anchor.text('show');
-        }
-        else {
-            element.show(500);
-            anchor.text('hide');
-        }
+        element.toggle(500);
+        anchor.text() === 'show' ? anchor.text('hide') : anchor.text('show')
     }
     
+    // need refactoring
     $('a[id^="show_"]').click(function(){
         let anchor = $(this);
         let clickedID = anchor.attr('id');
